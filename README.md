@@ -29,7 +29,7 @@ To install the context menu entries, run the following command in the `cmd` as `
 python presuffix.py install
 ```
 
-If the required packages don't automatically get installed, then
+If the required packages don't get installed automatically, then
 ```bash
 pip install Pillow pytesseract mss
 ```
