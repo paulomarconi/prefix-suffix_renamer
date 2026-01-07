@@ -25,12 +25,16 @@ Although there are sophisticated tools to organize documents such as Mendeley or
 
 To install the context menu entries, run the following command in the `cmd` as `administrator`:
 
-```bash
+```sh
 python presuffix.py install
 ```
 
 If the required packages don't get installed automatically, then
-```bash
+```sh
+    pip install -r requirements.txt
+```
+or
+```sh
 pip install Pillow pytesseract mss
 ```
 and install Tesseract OCR Engine from <https://github.com/UB-Mannheim/tesseract/wiki>
@@ -39,12 +43,12 @@ and install Tesseract OCR Engine from <https://github.com/UB-Mannheim/tesseract/
 
 To uninstall the context menu entries, run the following command:
 
-```bash
+```sh
 python presuffix.py uninstall
 ```
 Optional: kill and restart `explorer.exe` by command to see the changes.
 
-```bash
+```sh
 taskkill /f /im explorer.exe && start explorer.exe
 ```
 
