@@ -23,11 +23,17 @@ Although there are sophisticated tools to organize documents such as Mendeley or
 
 ## Installation
 
-To install the context menu entries, run the following command in the `cmd` as `admnistrator`:
+To install the context menu entries, run the following command in the `cmd` as `administrator`:
 
 ```bash
 python presuffix.py install
 ```
+
+If the required packages don't automatically get installed, then
+```bash
+pip install Pillow pytesseract mss
+```
+and install Tesseract OCR Engine from <https://github.com/UB-Mannheim/tesseract/wiki>
 
 ## Uninstallation
 
