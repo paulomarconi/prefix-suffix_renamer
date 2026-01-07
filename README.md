@@ -4,14 +4,14 @@ This simple Python script allows you to add custom prefixes and suffixes to file
 
 ## Motivation
 
-Although there are sofisticated tools to organize documents such as Mendeley or Zotero, some users still prefer the classic Windows Explorer folder/document organization structure. This tool helps you to quickly rename new academic PDF files based on their content type such as Book, Paper, Thesis, Report, etc., while automatically adding the publication year as a prefix and the author’s name can be added as suffix, making manual organization faster and more consistent.
+Although there are sophisticated tools to organize documents such as Mendeley or Zotero, some users still prefer the classic Windows Explorer folder/document organization structure. This tool helps you to quickly rename new academic PDF files based on their content type such as Book, Paper, Thesis, Report, etc., while automatically adding the publication year as a prefix and the author’s name can be added as suffix, making manual organization faster and more consistent.
 
 ## Features
 
 - Add predefined prefixes or suffixes to file names according to a list of options.
 - Install or uninstall the context menu entries for quick access.
 - Automatically handles file name conflicts by appending a counter to the new file name.
-- 
+  
 ## Requirements
 
 - Python 3.x
@@ -26,7 +26,7 @@ Although there are sofisticated tools to organize documents such as Mendeley or 
 To install the context menu entries, run the following command in the `cmd` as `admnistrator`:
 
 ```bash
-python prefix-suffix_adder.py install
+python presuffix.py install
 ```
 
 ## Uninstallation
@@ -34,7 +34,7 @@ python prefix-suffix_adder.py install
 To uninstall the context menu entries, run the following command:
 
 ```bash
-python prefix-suffix_adder.py uninstall
+python presuffix.py uninstall
 ```
 Optional: kill and restart `explorer.exe` by command to see the changes.
 
@@ -48,7 +48,7 @@ Once installed, you can right-click on a file in Windows Explorer and select "Ad
 
 ## Modify options list
 
-Just modify the following list in the code and `uninstall/install` the script.
+Just modify the following list in the code and `uninstall/install` script.
 
 ```python
 self.prefix_options = ["+Book+year+", "+Paper+year+", "+Thesis+year+", "+Report+year+", 
