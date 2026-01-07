@@ -31,7 +31,7 @@ python presuffix.py install
 
 If the required packages don't get installed automatically, then
 ```sh
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 or
 ```sh
