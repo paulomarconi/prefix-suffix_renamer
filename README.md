@@ -44,7 +44,7 @@ taskkill /f /im explorer.exe && start explorer.exe
 
 ## Usage
 
-Once installed, you can right-click on a file in Windows Explorer and select "Add Prefix-Suffix". From there, you can choose a prefix or suffix to apply to the selected file.
+Once installed, you can right-click on a file in Windows Explorer and select `Add Prefix-Suffix`. From there, you can choose a prefix or suffix to apply to the selected file.
 
 ## Modify options list
 
