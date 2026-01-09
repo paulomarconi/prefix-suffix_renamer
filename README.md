@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ```
 or
 ```sh
-pip install Pillow pytesseract mss
+pip install pillow pytesseract mss
 ```
 and install Tesseract OCR Engine from <https://github.com/UB-Mannheim/tesseract/wiki>
 

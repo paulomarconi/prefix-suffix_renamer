@@ -609,7 +609,7 @@ def check_dependencies():
     try:
         import PIL
     except ImportError:
-        missing_packages.append("Pillow")
+        missing_packages.append("pillow")
             
     try:
         import mss
